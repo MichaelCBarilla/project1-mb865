@@ -11,8 +11,8 @@ class track_info:
         self.album_image = album_image
         self.preview = preview
 
-SPOTIPY_CLIENT_ID='client ID'
-SPOTIPY_CLIENT_SECRET='client secret'
+SPOTIPY_CLIENT_ID='id'
+SPOTIPY_CLIENT_SECRET='secret'
 
 client_credentials_manager = SpotifyClientCredentials(client_id=SPOTIPY_CLIENT_ID,
                                                       client_secret=SPOTIPY_CLIENT_SECRET)
@@ -24,11 +24,13 @@ spotify = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 nujabes = 'spotify:artist:3Rq3YOF9YG9YfCWD4D56RZ'
 sturgill_simpson = 'spotify:artist:3vDpQbGnzRbRVirXlfQagB'
 frank_ocean = '2h93pZq0e7k5yf4dywlkpM'
+the_pillows = '6ilYV5oF8whllOnm4VZlYR'
 
 artists_IDs = [
     nujabes, 
     sturgill_simpson,
-    frank_ocean
+    frank_ocean,
+    the_pillows
 ]
 
 track_list = []
