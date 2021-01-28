@@ -16,6 +16,10 @@ audio::-webkit-media-controls-play-button, audio::-webkit-media-controls-panel {
     color: #000;
 }
 
+audio:focus {
+    outline: none;
+}
+
 
 /*Bootstrap Class CHanges*/
 .col-4 {
