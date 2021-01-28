@@ -11,6 +11,23 @@ body {
     
 }
 
+audio::-webkit-media-controls-play-button, audio::-webkit-media-controls-panel {
+    background-color: #e0e0e0;
+    color: #000;
+}
+
+
+/*Bootstrap Class CHanges*/
 .col-4 {
     padding: 0;
+}
+
+.card {
+    border: none;
+}
+
+.card-body {
+    background-color: #e0e0e0;
+    border-bottom-left-radius: calc(.25rem - 1px);
+    border-bottom-right-radius: calc(.25rem - 1px);
 }
