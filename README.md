@@ -8,8 +8,9 @@ Webpage served on `/` that randomly displays song information from a list of ran
 Flask is a python framework that is used here to serve the main webpage for the application. After importing the library in `app.py`, the instance is created as `app`. The route decorator is then used to determine what happens when the `/` endpoint is called upon the server.
 
 ### Miscellaneous
+* `https://getbootstrap.com/docs/4.0/getting-started/introduction/` is used for easy styling.
 * `https://fonts.google.com/` is used to select a font family.
-* `https://uigradients.com/` is used to obtain the css code for the gradient background
+* `https://uigradients.com/` is used to obtain the css code for the gradient background.
 
 ## Discoveries
 ### a. What are at least 3 technical issues you encountered with your project? How did you fix them?
