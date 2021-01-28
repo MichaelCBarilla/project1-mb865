@@ -14,13 +14,13 @@
             <!--Artist-->
             <div class="row mt-5">
                 <div class="col-12">
-                    <h1>Nujabes</h1>
+                    <h1>{{ track.artist }}</h1>
                 </div>
             </div>
             <!--Song-->
             <div class="row">
                 <div class="col-12">
-                    <h5>Dawn on the Side</h5>
+                    <h5>{{ track.name }}</h5>
                 </div>
             </div>
             <!--Album Cover & Controls-->
@@ -31,14 +31,13 @@
                         <!--Album cover-->
                         <img 
                             class="card-img-top" 
-                            src="https://upload.wikimedia.org/wikipedia/en/e/ef/Nujabes-spiritual-state.jpg"
+                            src="{{ track.album_image }}"
                             alt="Card image cap">
             
                         <!-- Controls -->
                         <div class="card-body text-center">
                            <audio controls>
-                                <source src="" type="">
-                                <source src="" type="">
+                                <source src="{{ track.preview }}">
                                 Your browser does not support the audio element.
                             </audio>
                         </div>
