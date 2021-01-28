@@ -1,5 +1,5 @@
 # project1-mb865
-Webpage served on `/` 
+Webpage served on `/` that randomly displays song information from a list of random my favorite artists. This information is dynamically fetched via Spotify API.
 
 ## Installation Guide
 
