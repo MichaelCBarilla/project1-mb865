@@ -64,5 +64,8 @@ def get_song():
         track = track
     )
     
-app.run()
+app.run(
+    port = int(os.environ.get('PORT', 5000)),
+    host=os.getenv('IP', '0.0.0.0')
+)
 
