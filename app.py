@@ -57,7 +57,7 @@ def get_song():
     # preview = chosen_one['preview_url']
     
     # track = track_info(name, artist, album_image, preview)
-    track = 0
+    track = track_info("song", "artist", "gfdgdfg", "gfdgdfgdf")
     
     return render_template(
         'index.html',
