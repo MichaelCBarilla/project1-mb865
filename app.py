@@ -63,5 +63,7 @@ def get_song():
         track = track
     )
     
-app.run()
+app.run(
+    port = int(os.environ.get('PORT'))
+)
 
