@@ -9,6 +9,10 @@ Flask is a python framework that is used here to serve the main webpage for the 
 
 ### Spotipy
 Spotipy is a python library that allows you to create a spotipy instance. This instance lets you interact with the Spotify API easily when provided with the right credentials. In my project I use it to obtain the top 10 tracks from each artist on my list of artists. This list of tracks is then parsed for the required information for my webpage.
+
+### Heroku
+Heroku is a free deployment server service that allows me to display my webpage on the global internet @ `https://project1-mb865.herokuapp.com/`.
+
 ### Miscellaneous
 * `https://getbootstrap.com/docs/4.0/getting-started/introduction/` is used for easy styling.
 * `https://fonts.google.com/` is used to select a font family.
