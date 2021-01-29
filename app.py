@@ -10,6 +10,9 @@ class track_info:
         self.artist = artist
         self.album_image = album_image
         self.preview = preview
+        
+        
+app = Flask(__name__)
 
 SPOTIPY_CLIENT_ID='id'
 SPOTIPY_CLIENT_SECRET='secret'
@@ -43,9 +46,6 @@ for artist in artists_IDs:
     for track in result['tracks'][:10]:
         track_list.append(track)
 
-
-
-app = Flask(__name__)
 
 @app.route('/')
 def get_song():

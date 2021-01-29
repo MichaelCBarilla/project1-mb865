@@ -10,7 +10,9 @@ colorama==0.4.3
 decorator==4.4.2
 Django==2.0.2
 docutils==0.15.2
+Flask==1.1.2
 git-remote-codecommit==1.15.1
+gunicorn==20.0.4
 idna==2.10
 ikp3db==1.4.1
 importlib-metadata==3.4.0
@@ -58,4 +60,3 @@ wcwidth==0.2.5
 Werkzeug==1.0.1
 wrapt==1.12.1
 zipp==3.4.0
-Flask==1.1.2
